@@ -7,7 +7,7 @@
 // char => 'z'
 // null => standalon value //datatype //representation intentially
 // undefined  
-// symbol => uiqueness
+// symbol => uniqueness
 
 //Object
 
