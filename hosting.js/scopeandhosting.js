@@ -30,7 +30,7 @@ let y = null;
 // console.log(typeof y);
 
 if(true) {
-     y = 1;
+    var x = 1;
 }
-console.log(y);// 1
+console.log(x);// 1
 
