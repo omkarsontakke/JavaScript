@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="#212121">
+    <script>
+        
+        // function outer() {
+        //     let username = "Omkar";
+        //     function inner() {
+        //         console.log(username);
+        //     }
+        //     inner();
+        // }
+        // outer();
+
+
+        // function Parent() {
+        //     let username = "Rakmo";
+        //     // console.log(secret); //not access
+        //     function Child() {
+        //         let secret1 = "mypass123"
+        //         console.log(username); //can access username
+        //     }
+
+        //     function ChildTwo() {
+        //         let secret2 = "321mypass"
+        //         console.log(username);//can access username
+        //         // console.log(secret1); //childs can't share data
+        //     }
+            
+        //     Child();
+        //     ChildTwo();
+        // }
+        // Parent();
+
+
+        function makeFunc() {
+        const name = "Mozilla";
+        const name2 = "Mozillaaa";
+            function displayName() {
+                console.log(name);
+            }
+            function displayName1() {
+                console.log(name2);
+            }
+
+            return displayName1;
+        }
+
+        const myFunc = makeFunc();
+        myFunc();
+    </script>
+    <script>
+
+    </script>
+</body>
+</html>
