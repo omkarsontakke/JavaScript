@@ -1,7 +1,6 @@
-console.log("Omkar");
 
 function writeName() {
-    console.log("Your Name is Omkar Sontakke");
+    console.log("Welcome Omkar Sontakke to \"JavaScript\" world");
 }
 
 writeName()
